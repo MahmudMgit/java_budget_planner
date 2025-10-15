@@ -1,4 +1,4 @@
-package budgettracker;
+package budgetplanner;
 
 import java.io.*;
 import java.util.*;
