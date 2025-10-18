@@ -1,4 +1,4 @@
-# 💰 Java Budget Planner
+#  Java Budget Planner
 
 A simple, console-based **Budget Planner** built in Java to demonstrate core programming fundamentals — including classes, objects, encapsulation, collections, file I/O, and user interaction.
 
@@ -27,16 +27,16 @@ It’s designed to show fundamental programming skills and clean code structure.
 
 ---
 
-## 🧩 Technologies Used
+## Technologies Used
 
-- ☕ Java SE  
-- 🧱 Object-Oriented Programming (OOP)
-- 📚 Collections (`ArrayList`) 
-- 🧰 Javadoc comments for documentation
+-  Java SE  
+- 🧱Object-Oriented Programming (OOP)
+- Collections (`ArrayList`) 
+- Javadoc comments for documentation
 
 ---
 
-## 🧑‍💻 How to Run
+## How to Run
 
 1. Clone or download this repository:  
    ```bash
