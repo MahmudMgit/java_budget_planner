@@ -21,9 +21,9 @@ public class FileHandler {
                 writer.write(t.getType() + "," + t.getDescription() + "," + t.getAmount());
                 writer.newLine();
             }
-            System.out.println("✅ Data saved successfully to " + FILE_NAME);
+            System.out.println(" Data saved successfully to " + FILE_NAME);
         } catch (IOException e) {
-            System.out.println("⚠️ Error saving data: " + e.getMessage());
+            System.out.println(" Error saving data: " + e.getMessage());
         }
     }
 
@@ -46,9 +46,9 @@ public class FileHandler {
                     transactions.add(new Transaction(description, amount, type));
                 }
             }
-            System.out.println("✅ Data loaded successfully from " + FILE_NAME);
+            System.out.println(" Data loaded successfully from " + FILE_NAME);
         } catch (FileNotFoundException e) {
-            System.out.println("⚠️ No existing data found. A new file will be created on save.");
+            System.out.println(" No existing data found. A new file will be created on save.");
         }
 
         return transactions;
